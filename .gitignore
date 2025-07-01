@@ -1,18 +1,17 @@
 # ──────────────────────────────
 #  config
 # ──────────────────────────────
-.env*                 # .env, .env.local, .env.production, etc.
-*.env.*.backup        # accidental editor backups of env files
-
+.env*                
+*.env.*.backup      
 # ──────────────────────────────
 #  Python (backend)
 # ──────────────────────────────
-.venv/                # virtual environment
+.venv/               
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.sqlite3             # if you ever cache anything locally
+*.sqlite3             
 .coverage
 .pytest_cache/
 
@@ -20,7 +19,7 @@ __pycache__/
 #  Node / React (frontend)
 # ──────────────────────────────
 frontend/node_modules/
-# Vite, Next, CRA, etc. build outputs
+
 frontend/dist/
 frontend/.next/
 frontend/.parcel-cache/
@@ -34,10 +33,8 @@ npm-debug.log*
 yarn-debug.log*
 pip-log.txt
 
-# macOS
-.DS_Store
-# Windows
+
 Thumbs.db
-# JetBrains / VS Code
+
 .idea/
 .vscode/

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "St. Anthony’s Dining Room",
+    "type": "free_meal",
+    "address": "121 Golden Gate Ave, San Francisco CA",
+    "lat": 37.7810,
+    "lon": -122.4135,
+    "hours": "11:30-13:00",
+    "requirements": "No ID needed",
+    "description": "Hot meals served daily."
+  },
+  {
+    "name": "Hamilton Women’s Shelter",
+    "type": "shelter",
+    "address": "260 Golden Gate Ave, San Francisco CA",
+    "lat": 37.7800,
+    "lon": -122.4151,
+    "hours": "Check-in 18:00",
+    "requirements": "Women only",
+    "description": "Walk-ins accepted."
+  },
+  {
+    "name": "Glide Memorial Church Meals",
+    "type": "free_meal",
+    "address": "330 Ellis St, San Francisco CA",
+    "lat": 37.7850,
+    "lon": -122.4118,
+    "hours": "Breakfast 8-9, Lunch 12-14",
+    "requirements": "None",
+    "description": "Free breakfast and lunch, every day."
+  }
+]
