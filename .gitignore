@@ -1,0 +1,43 @@
+# ──────────────────────────────
+#  config
+# ──────────────────────────────
+.env*                 # .env, .env.local, .env.production, etc.
+*.env.*.backup        # accidental editor backups of env files
+
+# ──────────────────────────────
+#  Python (backend)
+# ──────────────────────────────
+.venv/                # virtual environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3             # if you ever cache anything locally
+.coverage
+.pytest_cache/
+
+# ──────────────────────────────
+#  Node / React (frontend)
+# ──────────────────────────────
+frontend/node_modules/
+# Vite, Next, CRA, etc. build outputs
+frontend/dist/
+frontend/.next/
+frontend/.parcel-cache/
+frontend/.cache/
+
+# ──────────────────────────────
+#  Logs & misc
+# ──────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+pip-log.txt
+
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# JetBrains / VS Code
+.idea/
+.vscode/
